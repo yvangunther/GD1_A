@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Player macro
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":146.2779,"y":72.48631},"zoom":0.5999999,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-222.0,"y":-60.0},"guid":"5bf31102-4c4d-4e80-b6b5-8c09a9695c4c","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-227.0,"y":27.0},"guid":"601563db-665b-4e26-b207-c6a5579ea52c","$version":"A","$type":"Bolt.Update","$id":"11"},{"chainable":false,"member":{"name":"Log","parameterTypes":["System.Object"],"targetType":"UnityEngine.Debug","targetTypeName":"UnityEngine.Debug","$version":"A"},"defaultValues":{},"position":{"x":148.0,"y":-58.0},"guid":"973aa3d8-9fdb-4269-8842-f3ae662c3d33","$version":"A","$type":"Bolt.InvokeMember","$id":"13"},{"type":"System.String","value":{"$content":"je
+      suis le super log qui marche pas","$type":"System.String"},"defaultValues":{},"position":{"x":-140.0,"y":187.0},"guid":"5b0557e8-0b06-4e62-9532-87db04a26767","$version":"A","$type":"Bolt.Literal","$id":"16"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"cb7dfe31-efbf-4472-9d9c-e440440c1172","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"%message","guid":"8461537e-b50b-4d05-821d-e5c09a77fde8","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

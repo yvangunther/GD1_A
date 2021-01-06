@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: PlayerMacro
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":504.9139,"y":36.06334},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-284.0,"y":-317.0},"guid":"f60b4e8a-d6e0-4f0c-9c2f-e790c1f1bb00","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-451.0,"y":-217.0},"guid":"5b08b89e-8372-4ec1-a086-f76ad7f31317","$version":"A","$type":"Bolt.Update"},{"chainable":false,"member":{"name":"Log","parameterTypes":["System.Object"],"targetType":"UnityEngine.Debug","targetTypeName":"UnityEngine.Debug","$version":"A"},"defaultValues":{},"position":{"x":341.0,"y":-164.0},"guid":"1ef7dfb6-90c7-4825-acd9-2af9ceece41e","$version":"A","$type":"Bolt.InvokeMember","$id":"13"},{"type":"System.Single","value":{"$content":5.0,"$type":"System.Single"},"defaultValues":{},"position":{"x":751.0,"y":-206.0},"guid":"3409906d-881a-485d-90d4-414a0b266164","$version":"A","$type":"Bolt.Literal"},{"type":"System.String","value":{"$content":"je
+      suis update toutes les frames","$type":"System.String"},"defaultValues":{},"position":{"x":631.0,"y":-312.0},"guid":"ab669978-bbe6-4b8b-8693-cda83b8a245a","$version":"A","$type":"Bolt.Literal"},{"type":"System.Boolean","value":{"$content":false,"$type":"System.Boolean"},"defaultValues":{},"position":{"x":749.0,"y":-108.0},"guid":"eded2efe-9705-4b56-bfd4-338c1a223d98","$version":"A","$type":"Bolt.Literal"},{"type":"UnityEngine.Vector3","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"defaultValues":{},"position":{"x":733.0,"y":1.0},"guid":"bb58d169-8bcd-4586-acf9-d7e0fabeb961","$version":"A","$type":"Bolt.Literal"},{"type":"System.String","value":{"$content":"j''ai
+      appuy\u00e9 sur la barre d''espace !","$type":"System.String"},"defaultValues":{},"position":{"x":25.0,"y":-28.0},"guid":"6da1ef04-942e-435c-b0b7-8266244f4d85","$version":"A","$type":"Bolt.Literal","$id":"24"},{"coroutine":false,"defaultValues":{"key":{"$content":"Space","$type":"UnityEngine.KeyCode"},"action":{"$content":"Down","$type":"Ludiq.PressState"}},"position":{"x":57.0,"y":-197.0},"guid":"d99fbfe7-5303-43e2-8420-b814fadcb32f","$version":"A","$type":"Bolt.OnKeyboardInput","$id":"26"},{"chainable":false,"member":{"name":"Translate","parameterTypes":["System.Single","System.Single","System.Single"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%x":{"$content":0.0,"$type":"System.Single"},"%y":{"$content":0.0,"$type":"System.Single"},"%z":{"$content":0.0,"$type":"System.Single"}},"position":{"x":346.0,"y":100.0},"guid":"481476f8-cbd5-4d00-a7aa-b48de4455034","$version":"A","$type":"Bolt.InvokeMember"},{"sourceUnit":{"$ref":"26"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"65ec6873-b349-4bc4-b705-c9c3dc670bfd","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"24"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"%message","guid":"a31608da-6f23-442a-9ac1-353ed26f44b6","$type":"Bolt.ValueConnection"},{"position":{"xMin":-7.0,"yMin":-279.0,"xMax":290.0,"yMax":-52.0},"label":"Unit
+      qui detecte les inputs du clavier :O","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"474b1769-15ac-4b8e-a45c-d3d644b98f6e","$version":"A","$type":"Ludiq.GraphGroup"},{"position":{"xMin":302.0,"yMin":46.0,"xMax":520.0,"yMax":306.0},"label":"C
+      koa ???!?","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"bddc4850-856a-429e-a80d-253f772c2ebd","$version":"A","$type":"Ludiq.GraphGroup"},{"position":{"xMin":600.2501,"yMin":-374.75,"xMax":914.0001,"yMax":135.2501},"label":"Diff\u00e9rents
+      types","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"b82770fd-8bc9-4235-9b5d-2872b79c1b46","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
